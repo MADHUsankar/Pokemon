@@ -1,0 +1,36 @@
+/*reset css*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+body{
+  font-family: sans-serif;
+}
+#pokemon{
+  display: inline-block;
+  width: 800px;
+  vertical-align: top;
+}
+#pokedex{
+  display: block;
+  position: fixed;
+  top: 50px;
+  left: 850px;
+  width: 200px;
+  height: 400px;
+  border: 20px solid red;
+  vertical-align: top;
+  padding: 40px 10px 10px 10px;
+}
+#pokedex *{
+  margin-left: 15px;
+  max-width: 120px;
+}
+ul, p{
+  margin-bottom: 30px;
+}
+#pokedex h1{
+  
+}
